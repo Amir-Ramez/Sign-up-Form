@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 :root {
     --background-width: 35vw;
     --form-width: calc(100vw - var(--background-width));
@@ -17,8 +22,52 @@ body {
 
 .background {
     width: var(--background-width);
+    height: 100vh;
+    background-image: url(../img/green-leaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .form {
     width: var(--form-width);
+}
+
+.background .logo {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    padding: 0.5em;
+    font-family: norse-bold;
+    font-size: 2.5em;
+    line-height: 3em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.background img {
+    width: var(--background-width);
+}
+
+.logo img {
+    width: 2.4em;
+    height: 3em;
+}
+
+.background .credit {
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.credit a {
+    color: white;
+}
+
+.credit a:visited {
+    color: purple;
 }
