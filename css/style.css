@@ -1,0 +1,24 @@
+:root {
+    --background-width: 35vw;
+    --form-width: calc(100vw - var(--background-width));
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.background {
+    width: var(--background-width);
+}
+
+.form {
+    width: var(--form-width);
+}
