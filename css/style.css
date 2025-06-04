@@ -29,10 +29,6 @@ body {
     position: relative;
 }
 
-.form {
-    width: var(--form-width);
-}
-
 .background .logo {
     background-color: rgba(0, 0, 0, 0.5);
     margin-top: 20%;
@@ -87,4 +83,41 @@ body {
     max-inline-size: 52ch;
     font-size: 1.5em;
     padding: 0.5em;
+}
+
+.form-content {
+    padding: 3em;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px 1px #bac0c2;
+}
+
+.form-content form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.form-content form .form-field {
+    width: 40%;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 0.3em;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+}
+
+.form-field input {
+    width: 70%;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+    border: 1px solid #c0c3c4;
+    border-radius: 4px;
+}
+
+.form-field input:focus {
+    outline: none;
+    border-color: #a8d6e6;
+    box-shadow: 0 0 10px 0.5px #a8d6e6;
 }
