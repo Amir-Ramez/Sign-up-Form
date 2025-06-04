@@ -121,3 +121,31 @@ body {
     border-color: #a8d6e6;
     box-shadow: 0 0 10px 0.5px #a8d6e6;
 }
+
+.register {
+    padding: 1em 0;
+    width: var(--form-width);
+}
+
+.register button {
+    padding: 1em 4em;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    background-color: #596d48;
+}
+
+.register button:focus {
+    background-color: #063d03;
+}
+
+.login {
+    padding: 3em;
+    font-size: 1em;
+}
+
+.login a {
+    color: #063d03;
+    text-decoration: none;
+}
