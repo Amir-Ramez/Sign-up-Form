@@ -149,3 +149,7 @@ body {
     color: #063d03;
     text-decoration: none;
 }
+
+.form-content input[type='password']:invalid {
+    border-color: red;
+}
